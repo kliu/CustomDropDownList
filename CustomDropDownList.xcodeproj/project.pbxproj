@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CustomDropDownListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CustomDropDownListAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		C3D90DDA12C0C41B003DB79B /* but-bg-no-active.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D90DD212C0C41B003DB79B /* but-bg-no-active.png */; };
+		C3D90DDB12C0C41B003DB79B /* but-bg-active.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D90DD312C0C41B003DB79B /* but-bg-active.png */; };
+		C3D90DDD12C0C41B003DB79B /* dropdown-item-bg-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D90DD512C0C41B003DB79B /* dropdown-item-bg-hover.png */; };
+		C3D90DDE12C0C41B003DB79B /* dropdown-item-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D90DD612C0C41B003DB79B /* dropdown-item-bg.png */; };
+		C3D90DDF12C0C41B003DB79B /* open-dropdown-bg-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D90DD712C0C41B003DB79B /* open-dropdown-bg-bottom.png */; };
+		C3D90DE012C0C41B003DB79B /* open-dropdown-bg-inner.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D90DD812C0C41B003DB79B /* open-dropdown-bg-inner.png */; };
+		C3D90DE112C0C41B003DB79B /* open-dropdown-bg-top.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D90DD912C0C41B003DB79B /* open-dropdown-bg-top.png */; };
+		C3D90DE412C0C4BC003DB79B /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D90DE312C0C4BC003DB79B /* Configuration.m */; };
+		C3D90E0C12C0CA92003DB79B /* DropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D90E0712C0CA92003DB79B /* DropDownList.m */; };
+		C3D90E0D12C0CA92003DB79B /* TransparentOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D90E0912C0CA92003DB79B /* TransparentOverlay.m */; };
+		C3D90E0E12C0CA92003DB79B /* TransparentOverlay+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D90E0B12C0CA92003DB79B /* TransparentOverlay+Private.m */; };
+		C3D90E1412C0CAC1003DB79B /* BaseDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D90E1212C0CAC0003DB79B /* BaseDataObject.m */; };
+		C3D90E1712C0CF0C003DB79B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D90E1612C0CF0C003DB79B /* MainViewController.m */; };
+		C3D90E1C12C0D022003DB79B /* BaseItemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D90E1B12C0D022003DB79B /* BaseItemObject.m */; };
+		C3FE7D3A12CA45B6000B2B20 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FE7D3812CA45B6000B2B20 /* icon.png */; };
+		C3FE7D3B12CA45B6000B2B20 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FE7D3912CA45B6000B2B20 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CustomDropDownListAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDropDownListAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CustomDropDownListAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDropDownListAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CustomDropDownList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDropDownList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CustomDropDownList_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDropDownList_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CustomDropDownList-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CustomDropDownList-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C3D90DD212C0C41B003DB79B /* but-bg-no-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "but-bg-no-active.png"; path = "Images/but-bg-no-active.png"; sourceTree = "<group>"; };
+		C3D90DD312C0C41B003DB79B /* but-bg-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "but-bg-active.png"; path = "Images/but-bg-active.png"; sourceTree = "<group>"; };
+		C3D90DD512C0C41B003DB79B /* dropdown-item-bg-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dropdown-item-bg-hover.png"; path = "Images/dropdown-item-bg-hover.png"; sourceTree = "<group>"; };
+		C3D90DD612C0C41B003DB79B /* dropdown-item-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dropdown-item-bg.png"; path = "Images/dropdown-item-bg.png"; sourceTree = "<group>"; };
+		C3D90DD712C0C41B003DB79B /* open-dropdown-bg-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "open-dropdown-bg-bottom.png"; path = "Images/open-dropdown-bg-bottom.png"; sourceTree = "<group>"; };
+		C3D90DD812C0C41B003DB79B /* open-dropdown-bg-inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "open-dropdown-bg-inner.png"; path = "Images/open-dropdown-bg-inner.png"; sourceTree = "<group>"; };
+		C3D90DD912C0C41B003DB79B /* open-dropdown-bg-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "open-dropdown-bg-top.png"; path = "Images/open-dropdown-bg-top.png"; sourceTree = "<group>"; };
+		C3D90DE212C0C4BC003DB79B /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		C3D90DE312C0C4BC003DB79B /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		C3D90E0612C0CA92003DB79B /* DropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownList.h; sourceTree = "<group>"; };
+		C3D90E0712C0CA92003DB79B /* DropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownList.m; sourceTree = "<group>"; };
+		C3D90E0812C0CA92003DB79B /* TransparentOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentOverlay.h; sourceTree = "<group>"; };
+		C3D90E0912C0CA92003DB79B /* TransparentOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentOverlay.m; sourceTree = "<group>"; };
+		C3D90E0A12C0CA92003DB79B /* TransparentOverlay+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TransparentOverlay+Private.h"; sourceTree = "<group>"; };
+		C3D90E0B12C0CA92003DB79B /* TransparentOverlay+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TransparentOverlay+Private.m"; sourceTree = "<group>"; };
+		C3D90E1112C0CAC0003DB79B /* BaseDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataObject.h; sourceTree = "<group>"; };
+		C3D90E1212C0CAC0003DB79B /* BaseDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataObject.m; sourceTree = "<group>"; };
+		C3D90E1512C0CF0C003DB79B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C3D90E1612C0CF0C003DB79B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C3D90E1A12C0D022003DB79B /* BaseItemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseItemObject.h; sourceTree = "<group>"; };
+		C3D90E1B12C0D022003DB79B /* BaseItemObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseItemObject.m; sourceTree = "<group>"; };
+		C3FE7D3812CA45B6000B2B20 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
+		C3FE7D3912CA45B6000B2B20 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Images/logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3D90DC812C0C0D0003DB79B /* CustomDropDownList */,
+				C3D90E1512C0CF0C003DB79B /* MainViewController.h */,
+				C3D90E1612C0CF0C003DB79B /* MainViewController.m */,
+				1D3623240D0F684500981E51 /* CustomDropDownListAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CustomDropDownListAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CustomDropDownList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CustomDropDownList_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3D90DC912C0C0FA003DB79B /* Images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CustomDropDownList-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D90DC812C0C0D0003DB79B /* CustomDropDownList */ = {
+			isa = PBXGroup;
+			children = (
+				C3D90DE212C0C4BC003DB79B /* Configuration.h */,
+				C3D90DE312C0C4BC003DB79B /* Configuration.m */,
+				C3D90E0612C0CA92003DB79B /* DropDownList.h */,
+				C3D90E0712C0CA92003DB79B /* DropDownList.m */,
+				C3D90E0812C0CA92003DB79B /* TransparentOverlay.h */,
+				C3D90E0912C0CA92003DB79B /* TransparentOverlay.m */,
+				C3D90E0A12C0CA92003DB79B /* TransparentOverlay+Private.h */,
+				C3D90E0B12C0CA92003DB79B /* TransparentOverlay+Private.m */,
+				C3D90E1112C0CAC0003DB79B /* BaseDataObject.h */,
+				C3D90E1212C0CAC0003DB79B /* BaseDataObject.m */,
+				C3D90E1A12C0D022003DB79B /* BaseItemObject.h */,
+				C3D90E1B12C0D022003DB79B /* BaseItemObject.m */,
+			);
+			name = CustomDropDownList;
+			sourceTree = "<group>";
+		};
+		C3D90DC912C0C0FA003DB79B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE7D3812CA45B6000B2B20 /* icon.png */,
+				C3FE7D3912CA45B6000B2B20 /* logo.png */,
+				C3D90DD212C0C41B003DB79B /* but-bg-no-active.png */,
+				C3D90DD312C0C41B003DB79B /* but-bg-active.png */,
+				C3D90DD512C0C41B003DB79B /* dropdown-item-bg-hover.png */,
+				C3D90DD612C0C41B003DB79B /* dropdown-item-bg.png */,
+				C3D90DD712C0C41B003DB79B /* open-dropdown-bg-bottom.png */,
+				C3D90DD812C0C41B003DB79B /* open-dropdown-bg-inner.png */,
+				C3D90DD912C0C41B003DB79B /* open-dropdown-bg-top.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CustomDropDownList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CustomDropDownList" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomDropDownList;
+			productName = CustomDropDownList;
+			productReference = 1D6058910D05DD3D006BFB54 /* CustomDropDownList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CustomDropDownList" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CustomDropDownList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				C3D90DDA12C0C41B003DB79B /* but-bg-no-active.png in Resources */,
+				C3D90DDB12C0C41B003DB79B /* but-bg-active.png in Resources */,
+				C3D90DDD12C0C41B003DB79B /* dropdown-item-bg-hover.png in Resources */,
+				C3D90DDE12C0C41B003DB79B /* dropdown-item-bg.png in Resources */,
+				C3D90DDF12C0C41B003DB79B /* open-dropdown-bg-bottom.png in Resources */,
+				C3D90DE012C0C41B003DB79B /* open-dropdown-bg-inner.png in Resources */,
+				C3D90DE112C0C41B003DB79B /* open-dropdown-bg-top.png in Resources */,
+				C3FE7D3A12CA45B6000B2B20 /* icon.png in Resources */,
+				C3FE7D3B12CA45B6000B2B20 /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CustomDropDownListAppDelegate.m in Sources */,
+				C3D90DE412C0C4BC003DB79B /* Configuration.m in Sources */,
+				C3D90E0C12C0CA92003DB79B /* DropDownList.m in Sources */,
+				C3D90E0D12C0CA92003DB79B /* TransparentOverlay.m in Sources */,
+				C3D90E0E12C0CA92003DB79B /* TransparentOverlay+Private.m in Sources */,
+				C3D90E1412C0CAC1003DB79B /* BaseDataObject.m in Sources */,
+				C3D90E1712C0CF0C003DB79B /* MainViewController.m in Sources */,
+				C3D90E1C12C0D022003DB79B /* BaseItemObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomDropDownList_Prefix.pch;
+				INFOPLIST_FILE = "CustomDropDownList-Info.plist";
+				PRODUCT_NAME = CustomDropDownList;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CustomDropDownList_Prefix.pch;
+				INFOPLIST_FILE = "CustomDropDownList-Info.plist";
+				PRODUCT_NAME = CustomDropDownList;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CustomDropDownList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CustomDropDownList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
